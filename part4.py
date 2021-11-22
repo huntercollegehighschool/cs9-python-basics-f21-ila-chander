@@ -14,3 +14,8 @@ The area of the triangle is 12.0
 '''
 
 #start writing your code below
+
+base = int(input("enter the base:"))
+height = int(input("enter the height:"))
+
+print("the area of the triangle is", (base * height)/2)
